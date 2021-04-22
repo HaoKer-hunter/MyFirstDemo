@@ -1,2 +1,10 @@
 # MyFirstDemo
-The first broaden sources of income in the school days
+The first open source code during undergraduate
+#include<stdio.h>
+int main(void)
+{
+
+printf("Hello World\n Welcome to C");
+
+return 0;
+}
