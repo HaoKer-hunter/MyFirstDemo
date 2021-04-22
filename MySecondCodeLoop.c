@@ -14,8 +14,8 @@
 //
 //	int var[] = { 10,100,200 };
 //	int* ptr = var;
-//	printf("varµÄµØÖ·Îª%p\n", &var);
-//	printf("var[0]µÄµØÖ·Îª%p\n", var[0]);
+//	printf("varçš„åœ°å€ä¸º%p\n", &var);
+//	printf("var[0]çš„åœ°å€ä¸º%p\n", var[0]);
 //
 //
 //	return 0;
@@ -27,8 +27,8 @@
 //	
 //	int sunflower = 100;
 //	int* p = &sunflower;
-//	printf("±äÁ¿sunflowerµÄµØÖ·Îª%p\n", &sunflower);
-//	printf("Ö¸ÕëµÄµØÖ·Îª%p\n",p);
+//	printf("å˜é‡sunflowerçš„åœ°å€ä¸º%p\n", &sunflower);
+//	printf("æŒ‡é’ˆçš„åœ°å€ä¸º%p\n",p);
 //
 //
 //	return 0;
@@ -44,17 +44,18 @@ int main()
 	char str3[14];
 	int  len;
 
-	/* ¸´ÖÆ str1 µ½ str3 */
+	/* å¤åˆ¶ str1 åˆ° str3 */
 	strcpy_s(str3, str1);
 	printf("strcpy( str3, str1) :  %s\n", str3);
 
-	/* Á¬½Ó str1 ºÍ str2 */
+	/* è¿æ¥ str1 å’Œ str2 */
 	strcat_s(str1, str2);
 	printf("strcat( str1, str2):   %s\n", str1);
 
-	/* Á¬½Óºó£¬str1 µÄ×Ü³¤¶È */
+	/* è¿æ¥åï¼Œstr1 çš„æ€»é•¿åº¦ */
 	len = strlen(str1);
 	printf("strlen(str1) :  %d\n", len);
 
 	return 0;
 }
+//Please tell me what's wrong with lines 37 to 60
